@@ -1,0 +1,15 @@
+.dn{
+    display:none;
+}
+
+.main-menu__logo img{
+    width:70px;
+}
+
+.footer-widget__logo img{
+    width:120px;
+}
+
+.pdtw{
+    padding-top: 120px;
+}
