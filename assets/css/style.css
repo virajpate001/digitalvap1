@@ -78,6 +78,21 @@
     color: red;
 }
 
+.whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    z-index: 99999;
+    width: 5%;
+    margin: 5px;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
 @media only screen and (max-width: 768px) {
     .process .portfolio-three__list li.active{
         flex: 0 0 100%;
@@ -101,5 +116,9 @@
 
     .page-header {
         padding: 100px 0 30px;
+    }
+
+    .whatsapp{
+        width: 18%;
     }
   }
